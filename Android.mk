@@ -43,6 +43,7 @@ LOCAL_CFLAGS += -W -Wall
 LOCAL_CFLAGS += -fPIC -DPIC
 LOCAL_CFLAGS += "-DDARWIN_NO_CARBON"
 LOCAL_CFLAGS += "-DFT2_BUILD_LIBRARY"
+LOCAL_CFLAGS += -fno-strict-aliasing
 
 # the following is for testing only, and should not be used in final builds
 # of the product
